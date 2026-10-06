@@ -1,0 +1,4 @@
+.venv
+vector_store
+secret.ini
+__pycache__

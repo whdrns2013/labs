@@ -1,0 +1,19 @@
+[project]
+name = "04-cafe-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chroma>=0.2.0",
+    "chromadb>=1.5.8",
+    "google-genai>=1.73.1",
+    "langchain>=1.2.15",
+    "langchain-google-genai>=4.2.2",
+    "langgraph>=1.1.8",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.6",
+]

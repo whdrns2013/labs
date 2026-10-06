@@ -1,0 +1,11 @@
+[db]
+baseurl=mysql+pymysql://
+host=
+port=
+user=
+password=
+db=
+table=dummy_data
+
+[setting]
+dummy_data_size=500000
